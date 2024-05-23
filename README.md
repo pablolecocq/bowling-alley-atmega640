@@ -49,6 +49,9 @@ bowling-alley-atmega640/
 │   ├── Timer0.c             Time base
 │   └── macros.h             Pin, motor and PWM parameter mapping
 └── partes/                  Modular per-subsystem development (before integration)
+    ├── disparador/          Launcher — two iterations
+    │   ├── sin-pwm/         Early version, without PWM speed control
+    │   └── con-pwm/         Later version, with PWM speed control
     ├── displays-bolos/
     └── retorno/
 ```
